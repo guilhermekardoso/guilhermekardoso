@@ -19,7 +19,7 @@ OUT.mkdir(exist_ok=True)
 
 BG, LINE, PANEL, TRACK = "#0a0d12", "#2b323b", "#141a22", "#12171e"
 WHITE, TEXT, MUTED, SOFT = "#f5f7fa", "#c7ced6", "#a3adb9", "#b4bdc8"
-DATA, FULL, ML, AI, LIVE = "#8f9db5", "#e9c46a", "#57c7d4", "#ff8a65", "#7ee2a8"
+DATA, FULL, ML, AI, PRODUCT, LIVE = "#8f9db5", "#e9c46a", "#57c7d4", "#ff8a65", "#b9a1ff", "#7ee2a8"
 
 START = 2019 * 12 + 2  # March 2019
 NOW = 2026 * 12 + 10  # November 2026
@@ -32,16 +32,16 @@ def month(year, number):
 
 # Newest first: name, short and long description, start, end, color. Source: kardoso.dev/experiencias
 SPANS = [
-    ("trinks", "agentes no WhatsApp", "agentes no WhatsApp", month(2025, 11), month(2026, 3), AI),
-    ("tce-ro", "LIDIA", "LIDIA, análise de editais", month(2025, 3), month(2025, 11), AI),
-    ("ids-software", "GraphRAG", "GraphRAG na saúde", month(2024, 9), month(2025, 3), AI),
+    ("trinks", "IA para atendimento", "IA para atendimento de barbearias, salões e clínicas", month(2025, 11), month(2026, 3), AI),
+    ("tce-ro", "LIDIA, licitações", "LIDIA, sistema de análise de licitações", month(2025, 3), month(2025, 11), AI),
+    ("ids-software", "GraphRAG e IA, saúde e educação", "GraphRAG e IA aplicados à saúde e educação pública", month(2024, 9), month(2025, 3), AI),
     ("datarisk", "MLOps", "plataforma de MLOps", month(2023, 7), month(2024, 9), ML),
     ("eemovel.ml", "modelos e AWS", "modelos e pipelines AWS", month(2022, 3), month(2023, 7), ML),
-    ("ressoar", "2 mil+ usuários", "plataforma, 2 mil+ usuários", month(2020, 3), month(2022, 3), FULL),
-    ("eemovel.dados", "18 mi+ registros", "18 mi+ registros de imóveis", month(2019, 3), month(2020, 2), DATA),
+    ("ressoar", "ensino, 2 mil+ usuários", "plataforma de ensino, 2 mil+ usuários", month(2020, 3), month(2022, 3), FULL),
+    ("eemovel.dados", "10 mi+ registros", "10 mi+ registros de imóveis", month(2019, 3), month(2020, 2), DATA),
 ]
 ROTTUS_START = month(2026, 4)
-LEGEND = [("dados", DATA), ("full-stack", FULL), ("ML", ML), ("IA aplicada", AI)]
+LEGEND = [("dados", DATA), ("full-stack", FULL), ("ML", ML), ("IA aplicada", AI), ("AI Product Engineer", PRODUCT)]
 
 
 def variable(name, **axes):
@@ -78,7 +78,7 @@ def bar(x, y, w, h, color, order):
 
 
 def live_bar(x, y, w, h):
-    return bar(x, y, w, h, AI, 0) + f'<rect class="l" x="{x + w - 5:.1f}" y="{y}" width="5" height="{h}" fill="#fff"/>'
+    return bar(x, y, w, h, PRODUCT, 0) + f'<rect class="l" x="{x + w - 5:.1f}" y="{y}" width="5" height="{h}" fill="#fff"/>'
 
 
 def page(w, h, title, body):
@@ -101,7 +101,7 @@ TITLE = "Guilherme Cardoso, engenheiro de software e cofundador da Rottus: traje
 
 
 def desktop():
-    w, x0, tx, tw = 846, 32, 240, 552
+    w, x0, tx, tw = 846, 32, 400, 392
     px = tw / (NOW - START)
     pos = lambda m: tx + (m - START) * px
     out = [
