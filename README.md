@@ -22,6 +22,7 @@
 <a href="https://www.postgresql.org"><img src="./assets/stack/postgresql.svg" alt="PostgreSQL" height="34"></a>
 <a href="https://www.mongodb.com"><img src="./assets/stack/mongodb.svg" alt="MongoDB" height="34"></a>
 <a href="https://redis.io"><img src="./assets/stack/redis.svg" alt="Redis" height="34"></a>
+<a href="https://www.rabbitmq.com"><img src="./assets/stack/rabbitmq.svg" alt="RabbitMQ" height="34"></a>
 <a href="https://spark.apache.org"><img src="./assets/stack/apachespark.svg" alt="Apache Spark" height="34"></a>
 <br>
 <a href="https://react.dev"><img src="./assets/stack/react.svg" alt="React" height="34"></a>
@@ -32,9 +33,6 @@
 <a href="https://aws.amazon.com"><img src="./assets/stack/amazonwebservices.svg" alt="AWS" height="34"></a>
 <a href="https://prometheus.io"><img src="./assets/stack/prometheus.svg" alt="Prometheus" height="34"></a>
 <a href="https://grafana.com"><img src="./assets/stack/grafana.svg" alt="Grafana" height="34"></a>
-
-**IA:** agentes, RAG, GraphRAG, hybrid search, reranking, tool calling, guardrails, human-in-the-loop, LLM-as-a-Judge<br>
-**Confiabilidade:** idempotência, retries, circuit breakers, filas, arquitetura orientada a eventos, tracing
 
 ## Repositórios públicos
 

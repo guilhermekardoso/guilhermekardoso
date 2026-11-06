@@ -19,7 +19,7 @@ OUT = ROOT / "assets" / "stack"
 ICONS = json.loads((ROOT / "tools" / "stack_icons.json").read_text(encoding="utf8"))
 MONO = instancer.instantiateVariableFont(TTFont(FONTS / "JetBrainsMono[wght].ttf"), {"wght": 500})
 
-STACK = {"python": "Python", "typescript": "TypeScript", "langgraph": "LangGraph", "langchain": "LangChain", "modelcontextprotocol": "MCP", "langfuse": "Langfuse", "qdrant": "Qdrant", "neo4j": "Neo4j", "fastapi": "FastAPI", "nodedotjs": "Node.js", "postgresql": "PostgreSQL", "mongodb": "MongoDB", "redis": "Redis", "apachespark": "Apache Spark", "react": "React", "nextdotjs": "Next.js", "docker": "Docker", "kubernetes": "Kubernetes", "amazonwebservices": "AWS", "prometheus": "Prometheus", "grafana": "Grafana"}
+STACK = {"python": "Python", "typescript": "TypeScript", "langgraph": "LangGraph", "langchain": "LangChain", "modelcontextprotocol": "MCP", "langfuse": "Langfuse", "qdrant": "Qdrant", "neo4j": "Neo4j", "fastapi": "FastAPI", "nodedotjs": "Node.js", "postgresql": "PostgreSQL", "mongodb": "MongoDB", "redis": "Redis", "rabbitmq": "RabbitMQ", "apachespark": "Apache Spark", "react": "React", "nextdotjs": "Next.js", "docker": "Docker", "kubernetes": "Kubernetes", "amazonwebservices": "AWS", "prometheus": "Prometheus", "grafana": "Grafana"}
 HEIGHT, ICON, PAD, GAP, SIZE = 34, 18, 11, 8, 13
 
 
