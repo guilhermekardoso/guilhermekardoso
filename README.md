@@ -10,29 +10,30 @@
 <a href="https://www.python.org"><img src="./assets/stack/python.svg" alt="Python" height="34"></a>
 <a href="https://www.typescriptlang.org"><img src="./assets/stack/typescript.svg" alt="TypeScript" height="34"></a>
 <br>
-<a href="https://www.langchain.com/langgraph"><img src="./assets/stack/langgraph.svg" alt="LangGraph" height="34"></a>
-<a href="https://www.langchain.com"><img src="./assets/stack/langchain.svg" alt="LangChain" height="34"></a>
-<a href="https://modelcontextprotocol.io"><img src="./assets/stack/modelcontextprotocol.svg" alt="MCP" height="34"></a>
-<a href="https://langfuse.com"><img src="./assets/stack/langfuse.svg" alt="Langfuse" height="34"></a>
-<a href="https://qdrant.tech"><img src="./assets/stack/qdrant.svg" alt="Qdrant" height="34"></a>
-<a href="https://neo4j.com"><img src="./assets/stack/neo4j.svg" alt="Neo4j" height="34"></a>
-<br>
 <a href="https://fastapi.tiangolo.com"><img src="./assets/stack/fastapi.svg" alt="FastAPI" height="34"></a>
 <a href="https://nodejs.org"><img src="./assets/stack/nodedotjs.svg" alt="Node.js" height="34"></a>
+<a href="https://react.dev"><img src="./assets/stack/react.svg" alt="React" height="34"></a>
+<a href="https://nextjs.org"><img src="./assets/stack/nextdotjs.svg" alt="Next.js" height="34"></a>
+<a href="https://spark.apache.org"><img src="./assets/stack/apachespark.svg" alt="Apache Spark" height="34"></a>
+<br>
+<a href="https://www.langchain.com/langgraph"><img src="./assets/stack/langgraph.svg" alt="LangGraph" height="34"></a>
+<a href="https://www.langchain.com"><img src="./assets/stack/langchain.svg" alt="LangChain" height="34"></a>
+<a href="https://langfuse.com"><img src="./assets/stack/langfuse.svg" alt="Langfuse" height="34"></a>
+<a href="https://modelcontextprotocol.io"><img src="./assets/stack/modelcontextprotocol.svg" alt="MCP" height="34"></a>
+<br>
 <a href="https://www.postgresql.org"><img src="./assets/stack/postgresql.svg" alt="PostgreSQL" height="34"></a>
 <a href="https://www.mongodb.com"><img src="./assets/stack/mongodb.svg" alt="MongoDB" height="34"></a>
 <a href="https://redis.io"><img src="./assets/stack/redis.svg" alt="Redis" height="34"></a>
-<a href="https://www.rabbitmq.com"><img src="./assets/stack/rabbitmq.svg" alt="RabbitMQ" height="34"></a>
-<a href="https://spark.apache.org"><img src="./assets/stack/apachespark.svg" alt="Apache Spark" height="34"></a>
-<br>
-<a href="https://react.dev"><img src="./assets/stack/react.svg" alt="React" height="34"></a>
-<a href="https://nextjs.org"><img src="./assets/stack/nextdotjs.svg" alt="Next.js" height="34"></a>
+<a href="https://qdrant.tech"><img src="./assets/stack/qdrant.svg" alt="Qdrant" height="34"></a>
+<a href="https://neo4j.com"><img src="./assets/stack/neo4j.svg" alt="Neo4j" height="34"></a>
 <br>
 <a href="https://www.docker.com"><img src="./assets/stack/docker.svg" alt="Docker" height="34"></a>
 <a href="https://kubernetes.io"><img src="./assets/stack/kubernetes.svg" alt="Kubernetes" height="34"></a>
-<a href="https://aws.amazon.com"><img src="./assets/stack/amazonwebservices.svg" alt="AWS" height="34"></a>
+<a href="https://www.rabbitmq.com"><img src="./assets/stack/rabbitmq.svg" alt="RabbitMQ" height="34"></a>
 <a href="https://prometheus.io"><img src="./assets/stack/prometheus.svg" alt="Prometheus" height="34"></a>
 <a href="https://grafana.com"><img src="./assets/stack/grafana.svg" alt="Grafana" height="34"></a>
+<br>
+<a href="https://aws.amazon.com"><img src="./assets/stack/amazonwebservices.svg" alt="AWS" height="34"></a>
 
 ## Repositórios públicos
 
@@ -54,7 +55,7 @@ Repositório: [mlops_codex](https://github.com/datarisk-io/mlops_codex)
 <details>
 <summary><b>Trajetória em texto</b></summary>
 
-- **Rottus**, cofundador e AI Product Engineer: abr/2026 até hoje
+- **Rottus**, Founder & AI Product Architect: abr/2026 até hoje
 - **Trinks**, AI Software Engineer, IA para atendimento de barbearias, salões e clínicas: nov/2025 a mar/2026
 - **TCE-RO**, AI Full-Stack Sênior, LIDIA, sistema de análise de licitações: mar/2025 a nov/2025
 - **IDS Software**, Machine Learning III, GraphRAG e IA aplicados à saúde e educação pública: set/2024 a mar/2025

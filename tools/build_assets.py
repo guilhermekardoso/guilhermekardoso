@@ -41,7 +41,7 @@ SPANS = [
     ("eemovel.dados", "10 mi+ registros", "10 mi+ registros de imóveis", month(2019, 3), month(2020, 2), DATA),
 ]
 ROTTUS_START = month(2026, 4)
-LEGEND = [("dados", DATA), ("full-stack", FULL), ("ML", ML), ("IA aplicada", AI), ("AI Product Engineer", PRODUCT)]
+LEGEND = [("dados", DATA), ("full-stack", FULL), ("ML", ML), ("IA aplicada", AI), ("Founder & AI Product Architect", PRODUCT)]
 
 
 def variable(name, **axes):
