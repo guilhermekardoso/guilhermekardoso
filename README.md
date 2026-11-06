@@ -1,27 +1,26 @@
-<h2> About Me </h2>
+<a href="https://www.kardoso.dev">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/trace-narrow.svg">
+    <img src="./assets/trace.svg" alt="Guilherme Cardoso, engenheiro de software e cofundador da Rottus. Trajetória em forma de trace, de 2019 até hoje: EEmovel, Ressoar, Datarisk, IDS Software, TCE-RO, Trinks e Rottus, em execução." width="100%">
+  </picture>
+</a>
 
-🔍 Machine Learning Engineer | Python Developer Focused on MLOps
+Na **Rottus**, construímos sistemas que se encaixam na rotina do cliente. O **Rottus Cargas** gerencia cargas a partir do WhatsApp: interpreta mensagens e áudios dos motoristas e atualiza o status de cada carga.
 
-🎓 Data Science | Unicesumar
-🎓 IT Technician | Federal Institute of Paraná
+Código aberto: [postgres-resilience-lab](https://github.com/guilhermekardoso/postgres-resilience-lab), onde derrubo um banco e implemento timeout, bulkhead e circuit breaker do zero.
 
-🚀 Passionate about programming since the age of 10, I discovered my love by starting to develop games with Construct, Unity, and Blender. Today, as a Machine Learning Engineer at Datarisk, solving the pains of MLOps.
+<details>
+<summary><b>Trajetória em texto</b></summary>
 
-🎯 My focus? Concrete results! I believe true success is measured by tangible metrics and measurable impact. With an innovation-driven approach, I'm constantly exploring the latest technologies and trends. I don't confine myself to languages or frameworks, as I understand that the essence lies in problem-solving.
+- **Rottus**, cofundador: abr/2026 até hoje
+- **Trinks**, AI Software Engineer, agentes de IA no WhatsApp: nov/2025 a mar/2026
+- **TCE-RO**, AI Full-Stack Sênior, LIDIA: mar/2025 a nov/2025
+- **IDS Software**, Machine Learning III, GraphRAG na saúde: set/2024 a mar/2025
+- **Datarisk**, Engenheiro de Machine Learning, MLOps: jul/2023 a set/2024
+- **EEmovel**, Engenheiro de Machine Learning P&D: mar/2022 a jul/2023
+- **Ressoar**, Full-Stack, plataforma com mais de 2 mil usuários: mar/2020 a mar/2022
+- **EEmovel**, Analista de Aquisição de Dados: mar/2019 a fev/2020
 
-<h2> Skills</h2>
-<h3 align="left">Languages</h3>
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+</details>
 
-<h3 align="left">Dev Stacks</h3>
-<p align="left"> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
-
-<h3 align="left">ML Stacks</h3>
-<p align="left"> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
-
-<h2> Connect with me </h2>
-<a href = 'https://www.github.com/gkardoso'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> 
-<a href = 'https://www.linkedin.com/in/gkardoso'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
+[kardoso.dev](https://www.kardoso.dev) · [LinkedIn](https://www.linkedin.com/in/guilhermekardoso) · contato@kardoso.dev
