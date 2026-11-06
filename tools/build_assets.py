@@ -23,7 +23,7 @@ DATA, FULL, ML, AI, LIVE = "#8f9db5", "#e9c46a", "#57c7d4", "#ff8a65", "#7ee2a8"
 
 START = 2019 * 12 + 2  # March 2019
 NOW = 2026 * 12 + 10  # November 2026
-YEARS = range(2020, 2027)
+YEARS = range(2019, 2027)
 
 
 def month(year, number):
@@ -38,11 +38,9 @@ SPANS = [
     ("datarisk", "MLOps", "plataforma de MLOps", month(2023, 7), month(2024, 9), ML),
     ("eemovel.ml", "modelos e AWS", "modelos e pipelines AWS", month(2022, 3), month(2023, 7), ML),
     ("ressoar", "2 mil+ usuários", "plataforma, 2 mil+ usuários", month(2020, 3), month(2022, 3), FULL),
-    ("eemovel.dados", "18 mi+ registros", "18 mi+ registros, OCR", month(2019, 3), month(2020, 2), DATA),
+    ("eemovel.dados", "18 mi+ registros", "18 mi+ registros de imóveis", month(2019, 3), month(2020, 2), DATA),
 ]
 ROTTUS_START = month(2026, 4)
-DETAILS = [("produto", "Rottus Cargas"), ("entrada", "mensagens e áudios no WhatsApp"),
-           ("saída", "status, alertas e relatórios"), ("próximo", "Rottus Barber")]
 LEGEND = [("dados", DATA), ("full-stack", FULL), ("ML", ML), ("IA aplicada", AI)]
 
 
@@ -112,16 +110,13 @@ def desktop():
         text("trace guilherme.carreira", MONO, 11, x0, 156, MUTED),
     ]
     for year in YEARS:
-        out.append(text(str(year), MONO, 11, pos(month(year, 1)), 156, MUTED))
+        out.append(text(str(year), MONO, 11, pos(max(month(year, 1), START)), 156, MUTED))
     y = 166
-    out.append(f'<rect x="{x0}" y="{y}" width="782" height="110" fill="{PANEL}"/>')
+    out.append(f'<rect x="{x0}" y="{y}" width="782" height="46" fill="{PANEL}"/>')
     out += [text("rottus", MONO_B, 14, x0 + 12, y + 20, "#fff"), text("cofundador", MONO, 11, x0 + 12, y + 36, MUTED), text("em execução", MONO, 11, x0 + 74, y + 20, LIVE),
             f'<rect x="{tx}" y="{y + 14}" width="{tw}" height="18" fill="{TRACK}"/>']
     out.append(live_bar(pos(ROTTUS_START), y + 14, tx + tw - pos(ROTTUS_START), 18))
-    for i, (key, value) in enumerate(DETAILS):
-        dx, dy = x0 + 12 + (i % 2) * 391, y + 68 + (i // 2) * 22
-        out += [text(key, MONO, 12, dx, dy, MUTED), text(value, MONO, 12, dx + width(key, MONO, 12) + 8, dy, TEXT)]
-    y += 118
+    y += 54
     for i, (name, _, long, start, end, color) in enumerate(SPANS):
         out += [text(name, MONO_B, 13, x0 + 12, y + 18, WHITE), text(long, MONO, 11, x0 + 12, y + 34, MUTED),
                 f'<rect x="{tx}" y="{y + 13}" width="{tw}" height="16" fill="{TRACK}"/>',
@@ -132,7 +127,6 @@ def desktop():
     for label, color in LEGEND:
         out += [f'<rect x="{x}" y="{y - 9}" width="10" height="10" fill="{color}"/>', text(label, MONO, 11, x + 16, y, MUTED)]
         x += 16 + width(label, MONO, 11) + 18
-    out.append(text("2019 a 2026, em escala", MONO, 11, x0 + 782, y, MUTED, anchor="end"))
     return page(w, y + 24, TITLE, "\n".join(out))
 
 
@@ -150,15 +144,11 @@ def narrow():
     for year in (2019, 2022, 2026):
         out.append(text(str(year), MONO, 11, x0 + (max(month(year, 1), START) - START) * px, 204, MUTED))
     y = 214
-    out.append(f'<rect x="{x0 - 8}" y="{y}" width="{tw + 16}" height="138" fill="{PANEL}"/>')
+    out.append(f'<rect x="{x0 - 8}" y="{y}" width="{tw + 16}" height="44" fill="{PANEL}"/>')
     out += [text("rottus", MONO_B, 13, x0, y + 17, "#fff"), text("em execução", MONO, 11, x0 + 56, y + 17, LIVE)]
     out.append(f'<rect x="{x0}" y="{y + 25}" width="{tw}" height="12" fill="{TRACK}"/>')
     out.append(live_bar(pos(ROTTUS_START), y + 25, x0 + tw - pos(ROTTUS_START), 12))
-    short = [("produto", "Rottus Cargas"), ("entrada", "mensagens e áudios"), ("saída", "status, alertas, relatórios"), ("próximo", "Rottus Barber")]
-    for i, (key, value) in enumerate(short):
-        dy = y + 60 + i * 20
-        out += [text(key, MONO, 12, x0, dy, MUTED), text(value, MONO, 12, x0 + width(key, MONO, 12) + 8, dy, TEXT)]
-    y += 150
+    y += 54
     for i, (name, short_text, _, start, end, color) in enumerate(SPANS):
         out += [text(name, MONO_B, 12, x0, y + 12, WHITE), text(short_text, MONO, 11, x0 + width(name, MONO_B, 12) + 8, y + 12, MUTED),
                 f'<rect x="{x0}" y="{y + 18}" width="{tw}" height="12" fill="{TRACK}"/>',
